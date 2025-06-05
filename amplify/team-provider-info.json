@@ -1,0 +1,60 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aws2025-dev-ac2d0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::775681067709:role/amplify-aws2025-dev-ac2d0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::775681067709:role/amplify-aws2025-dev-ac2d0-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-aws2025-dev-ac2d0-deployment",
+      "UnauthRoleName": "amplify-aws2025-dev-ac2d0-unauthRole",
+      "StackName": "amplify-aws2025-dev-ac2d0",
+      "StackId": "arn:aws:cloudformation:eu-west-1:775681067709:stack/amplify-aws2025-dev-ac2d0/d733a3d0-4120-11f0-a139-02ae6385a37f",
+      "AmplifyAppId": "d39cicnmtcc1tn"
+    }
+  },
+  "mathilde": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aws2025-mathilde-27bc8-authRole",
+      "UnauthRoleArn": "arn:aws:iam::775681067709:role/amplify-aws2025-mathilde-27bc8-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::775681067709:role/amplify-aws2025-mathilde-27bc8-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-aws2025-mathilde-27bc8-deployment",
+      "UnauthRoleName": "amplify-aws2025-mathilde-27bc8-unauthRole",
+      "StackName": "amplify-aws2025-mathilde-27bc8",
+      "StackId": "arn:aws:cloudformation:eu-west-1:775681067709:stack/amplify-aws2025-mathilde-27bc8/40da9b40-4121-11f0-81d0-0a2b962cc817",
+      "AmplifyAppId": "d39cicnmtcc1tn"
+    },
+    "categories": {
+      "storage": {
+        "users": {},
+        "cryptoPrices": {},
+        "cryptostorage": {}
+      },
+      "function": {
+        "saveUser": {
+          "deploymentBucketName": "amplify-aws2025-mathilde-27bc8-deployment",
+          "s3Key": "amplify-builds/saveUser-5a4e50446a384a785375-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-aws2025-mathilde-27bc8-deployment",
+          "s3Key": "amplify-builds/getUser-395468304f5657577459-build.zip"
+        },
+        "crypto": {
+          "deploymentBucketName": "amplify-aws2025-mathilde-27bc8-deployment",
+          "s3Key": "amplify-builds/crypto-4969706b72556168356b-build.zip"
+        },
+        "signeData": {
+          "deploymentBucketName": "amplify-aws2025-mathilde-27bc8-deployment",
+          "s3Key": "amplify-builds/signeData-49436a766c34424e7676-build.zip"
+        }
+      },
+      "api": {
+        "users": {},
+        "crypto": {}
+      },
+      "auth": {
+        "aws2025cf14b703": {}
+      }
+    }
+  }
+}
